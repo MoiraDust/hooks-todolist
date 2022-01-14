@@ -1,0 +1,23 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4rem;
+  background-color: #46b8da;
+  h1 {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1rem;
+    color: white;
+  }
+  .icon {
+    position: absolute;
+    top: 1.5rem;
+    right: 3rem;
+    color: white;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

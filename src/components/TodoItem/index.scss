@@ -1,0 +1,36 @@
+.item-wrapper {
+  // background-color: aqua;
+  width: 100%;
+  box-sizing: border-box;
+  // position: fixed;
+  top: 5rem;
+  padding: 1.5rem;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #eee;
+  .check-box {
+    // background-color: aliceblue;
+    padding: 0.4rem;
+    text-align: center;
+    margin-right: 0.5rem;
+    margin-left: 1.5rem;
+    input {
+      &:checked {
+        background-color: #2eb5f0;
+      }
+    }
+  }
+  span {
+    // background-color: aqua;
+    width: 80%;
+    font-size: 2rem;
+  }
+  .btn-group {
+    // background-color: red;
+    display: flex;
+    gap: 0.5rem;
+    padding-right: 4rem;
+  }
+}
