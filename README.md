@@ -1,3 +1,6 @@
 Todo list sample
 
-#Technology
+Use scss to create the style.
+Use reack hooks.
+Create slots components.
+
